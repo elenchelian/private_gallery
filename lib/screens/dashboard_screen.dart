@@ -131,7 +131,7 @@ class _ImageGridItemState extends State<ImageGridItem> {
 
   Widget decideGrid(){
     if(imageFile==null){
-     return Center(child: Text('Loadig...'));
+     return Center(child: Text('Checking Data...'));
     }else{
      return Image.memory(imageFile,fit: BoxFit.cover,);
     }

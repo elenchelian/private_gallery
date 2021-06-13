@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
 
           if (weCanCheckBiometrics) {
             bool authenticated = await localAuth.authenticate(
-              localizedReason: "Authenticate to see your bank statement.",
+              localizedReason: "Authenticate.",
             );
 
             if (authenticated) {

@@ -30,7 +30,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   local_auth: ^1.1.6
   google_fonts: any
-
   firebase_storage: ^8.1.0
   firebase_core: ^1.2.0
   image_picker: ^0.7.5+3
@@ -43,18 +42,7 @@ dependencies:
   fluttertoast: ^8.0.7
   theme_provider: ^0.5.0
   firebase_database: ^7.1.1
-
   font_awesome_flutter: ^9.0.0
-
-#  transparent_image: ^1.0.0
-
-#  flutter_plugin_android_lifecycle: ^2.0.1
-#  firebase_storage: ^5.1.0
-#  image_picker: ^0.7.5+3
-#  cloud_firestore: ^0.14.3
-#  http: ^0.12.2
-#  firebase_storage_web: ^0.1.1
-
 
 dev_dependencies:
   flutter_test:
